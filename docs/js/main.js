@@ -3,6 +3,10 @@ $(function(){
         $('.header').toggleClass('active');
     })
 
+    $('.header__menu li a').click(function(){
+      $('.header').removeClass('active');
+    })
+
     $(".tab").click(function() {
         $(".tab").removeClass("active").eq($(this).index()).addClass("active");
          $(".tab__item").hide().eq($(this).index()).fadeIn(1000)
