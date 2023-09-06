@@ -8,13 +8,23 @@ $(function(){
          $(".tab__item").hide().eq($(this).index()).fadeIn(1000)
     }).eq(0).addClass("active");
 
-    $(".header__menu ul, .to-top, .footer__menu").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-        top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
+   
 
-    });
+    $('.back').click(function(){
+        $('.succes-modal').fadeOut();
+    })
+
+    $(function($){
+        $(document).mouseup(function (e){ 
+          var div = $(".succes-modal .succes-modal__content"); 
+          var div2 = $(".succes-modal");
+          if (!div.is(e.target) 
+              && div.has(e.target).length === 0) {
+            div2.fadeOut();
+      
+          }
+        });
+      });
 
     
 

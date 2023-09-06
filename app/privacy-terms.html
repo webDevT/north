@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>North</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;500;700;900&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+		integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+	<div id="top"></div>
+	<div class="to-top">
+		<a href="#top">
+			<svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0.799926 10.0547C4.17981 6.6748 6.07477 4.77984 9.45465 1.39996L18.1094 10.0547" stroke-width="2.16558" stroke-linejoin="round"/>
+				</svg>
+				
+		</a>
+	</div>
+	<!-- start header -->
+	<header class="header header--black">
+		<div class="container">
+			<div class="logo">
+				<a href="/">
+					<svg width="231" height="63" viewBox="0 0 231 63" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_0_43)">
+						<path d="M102.933 45.6426H95.6748L80.5456 27.3503V45.6426H73.2878V15.7388H80.5456L95.6748 33.9901V15.7388H102.933V45.6426Z"/>
+						<path d="M138.158 30.6907C138.158 39.2211 131.21 46.1698 122.725 46.1698C114.24 46.1698 107.291 39.2211 107.291 30.6907C107.291 22.1604 114.153 15.2117 122.725 15.2117C131.296 15.2117 138.158 22.2059 138.158 30.6907ZM113.885 30.6907C113.885 35.5717 117.844 39.4846 122.725 39.4846C127.606 39.4846 131.478 35.5717 131.478 30.6907C131.478 25.8098 127.519 21.9378 122.725 21.9378C117.93 21.9378 113.885 25.8507 113.885 30.6907Z" />
+						<path d="M168.016 26.955C168.016 31.2633 165.903 34.9126 162.695 36.6305L168.853 45.6471H159.881L155.396 38.2166H150.12V45.6471H142.907V15.7388H157.377C163.444 15.7388 168.021 20.4425 168.021 26.955H168.016ZM150.12 22.4239V31.5269H156.318C158.782 31.5269 160.759 29.4591 160.759 26.955C160.759 24.4509 158.782 22.4239 156.359 22.4239H150.115H150.12Z" />
+						<path d="M198.975 22.4239H188.377V45.6426H181.078V22.4239H170.48V15.7388H198.975V22.4239Z" />
+						<path d="M231.514 45.6426H224.257V34.031H211.109V45.6426H203.896V15.7388H211.109V27.3503H224.257V15.7388H231.514V45.6426Z" />
+						<path d="M0.599552 32.1281L2.94005 34.4686L2.90369 34.5049L15.1424 46.7437L15.1788 46.7073L19.0463 50.5748C19.8325 51.3656 21.1096 51.3792 21.914 50.6112C21.9276 50.5975 21.9367 50.5884 21.9503 50.5748L22.6002 49.9249L23.5773 48.9478L26.6449 45.8802C27.2448 45.2803 27.3948 44.4168 27.1039 43.6851C27.0812 43.626 27.0494 43.5624 27.0221 43.5079C26.9313 43.3306 26.8222 43.167 26.6768 43.0171C26.6631 42.9989 26.654 42.9898 26.6404 42.9762L22.7774 39.1087H22.782L10.5432 26.8654L10.5342 26.8745L8.19366 24.534C7.38926 23.7296 6.09403 23.7296 5.28963 24.534L3.66265 26.1609L0.595007 29.2286C-0.209396 30.033 -0.204851 31.3328 0.595007 32.1326L0.599552 32.1281Z" />
+						<path d="M15.5424 26.5746C16.3468 27.379 17.642 27.379 18.4464 26.5746L21.5141 23.507L22.0549 22.9661L29.3263 15.6947C30.1171 14.8994 31.4032 14.9039 32.194 15.6947L39.3791 22.8798C39.4245 22.9389 39.4745 22.998 39.5291 23.0479L44.1873 27.7062C44.2419 27.7607 44.3055 27.8198 44.3691 27.8698C45.0826 28.4379 46.0915 28.4515 46.8232 27.9153C46.896 27.8653 46.9641 27.8107 47.0277 27.7471L47.0641 27.7108L47.7049 27.07L48.6729 26.1019L51.7133 23.057C51.7769 22.9889 51.8405 22.9207 51.8905 22.848C52.3359 22.2799 52.4222 21.53 52.1677 20.8847C52.1496 20.8256 52.1178 20.762 52.0905 20.7075C52.0359 20.6029 51.9723 20.5029 51.8996 20.4075C51.8542 20.3439 51.8042 20.2803 51.7451 20.2257C51.7315 20.2075 51.7224 20.1984 51.7087 20.1848L47.055 15.5265C47.0414 15.5129 47.0323 15.5038 47.0141 15.4902C46.9596 15.4357 46.896 15.3857 46.8323 15.3402L32.1031 0.592833C31.3123 -0.197936 30.0262 -0.197936 29.2354 0.592833L17.8375 11.9863L10.8523 18.9759C10.0479 19.7758 10.0525 21.0756 10.8523 21.88L15.547 26.5746H15.5424Z" />
+						<path d="M33.0937 47.9255C32.7301 47.5619 32.2711 47.3438 31.7985 47.2847C31.7985 47.2847 31.7985 47.2847 31.7894 47.2847C31.6894 47.2847 31.5894 47.2756 31.4849 47.262C30.9441 47.262 30.3987 47.4574 29.967 47.8482L29.9533 47.8664C29.9306 47.8846 29.9033 47.9073 29.8806 47.93L28.0764 49.7297L24.6861 53.12C24.6861 53.12 24.6406 53.1655 24.627 53.1882L24.6088 53.2064C23.9317 53.9517 23.8408 55.0333 24.3361 55.8695C24.427 56.0331 24.5452 56.1877 24.6861 56.3285L29.8806 61.5231C30.1169 61.7594 30.3987 61.9412 30.6987 62.0502C31.4258 62.382 32.3029 62.2593 32.9119 61.6821C32.9346 61.664 32.9573 61.6458 32.9755 61.6231C32.9846 61.6231 32.9937 61.614 32.9937 61.6049C33.0255 61.5867 33.0528 61.5549 33.0846 61.5276L33.8072 60.8096L34.8843 59.7279L35.9568 58.6509L38.2791 56.3331C38.2791 56.3331 38.3155 56.2967 38.3337 56.2785C39.1699 55.3878 39.1472 53.9926 38.2791 53.1246L33.0846 47.9346L33.0937 47.9255Z" />
+						<path d="M49.5224 30.4739C49.5224 30.4739 49.5088 30.5012 49.4997 30.5148L44.3597 35.6548C44.3052 35.6957 44.2506 35.7366 44.2007 35.7866L41.3693 38.6179C41.2966 38.6725 41.2239 38.7316 41.1603 38.7997L39.5833 40.3722L38.8243 41.1357C38.2699 41.6765 37.7109 42.2173 37.161 42.7627V42.799L36.6293 43.3353C36.5656 43.3989 36.5066 43.4671 36.452 43.5353C35.8749 44.2942 35.9203 45.3804 36.5838 46.0848C36.5975 46.103 36.6111 46.1166 36.6293 46.1348L41.1648 50.6704C41.1648 50.6704 41.1966 50.7022 41.2148 50.7158C41.9283 51.393 43.019 51.4293 43.778 50.8385C43.8416 50.7885 43.9053 50.734 43.9689 50.6749L44.6006 50.0432L45.5413 49.1025L47.3501 47.2937L57.0711 37.5727L57.1075 37.5409L57.7346 36.9092L58.6572 35.9866L58.6799 35.9639L58.7526 35.8912L59.5843 35.0595L61.643 32.9962C61.7066 32.9326 61.7612 32.8644 61.8157 32.7917C62.0793 32.4554 62.2111 32.0555 62.2247 31.6555C62.2247 31.5646 62.2247 31.4783 62.2156 31.3874C62.1838 30.992 62.043 30.6057 61.7794 30.2785C61.7657 30.2603 61.7566 30.2512 61.743 30.2376C61.7294 30.2194 61.7157 30.2058 61.6976 30.1876L57.1711 25.6611C57.1711 25.6611 57.1484 25.6384 57.1302 25.6248C57.0756 25.5703 57.012 25.5203 56.9529 25.4748C56.5985 25.2112 56.1804 25.0794 55.7622 25.0794C55.3487 25.0658 54.9351 25.184 54.5806 25.4248C54.4807 25.493 54.3898 25.5703 54.2989 25.6566L52.7264 27.229L49.7588 30.1967C49.6724 30.2831 49.5952 30.3785 49.527 30.4785L49.5224 30.4739Z" />
+						</g>
+						<defs>
+						<clipPath id="clip0_0_43">
+						<rect width="231" height="62.2299"/>
+						</clipPath>
+						</defs>
+						</svg>
+						
+				</a>
+			</div>
+
+			<div class="menu-btn">
+				<div class="menu-btn__row"></div>
+				<div class="menu-btn__row"></div>
+				<div class="menu-btn__row"></div>
+			</div>
+
+			<div class="header__menu">
+				<a href="" class="header__social-link">
+					<span>Connect with us</span>
+					<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M34.344 3.10662V31.8934C34.344 32.5515 34.0827 33.1828 33.6177 33.6482C33.1527 34.1135 32.522 34.375 31.8643 34.375H3.10026C2.44262 34.375 1.81191 34.1135 1.34688 33.6482C0.881854 33.1828 0.620605 32.5515 0.620605 31.8934L0.620605 3.10662C0.620605 2.44845 0.881854 1.81724 1.34688 1.35185C1.81191 0.886455 2.44262 0.625 3.10026 0.625L31.8643 0.625C32.522 0.625 33.1527 0.886455 33.6177 1.35185C34.0827 1.81724 34.344 2.44845 34.344 3.10662V3.10662ZM10.5392 13.5294H5.57992V29.4118H10.5392V13.5294ZM10.9856 8.06985C10.9882 7.69442 10.9169 7.32216 10.7757 6.97431C10.6346 6.62646 10.4264 6.30984 10.163 6.04252C9.89954 5.77521 9.58609 5.56245 9.24051 5.41637C8.89493 5.2703 8.52398 5.19377 8.14885 5.19118H8.05958C7.29671 5.19118 6.56509 5.49446 6.02566 6.03432C5.48623 6.57418 5.18318 7.30638 5.18318 8.06985C5.18318 8.83333 5.48623 9.56553 6.02566 10.1054C6.56509 10.6452 7.29671 10.9485 8.05958 10.9485V10.9485C8.43474 10.9578 8.80804 10.8929 9.15815 10.7577C9.50827 10.6225 9.82833 10.4196 10.1001 10.1606C10.3718 9.90155 10.5898 9.59147 10.7418 9.24806C10.8937 8.90466 10.9766 8.53465 10.9856 8.15919V8.06985ZM29.3846 19.7632C29.3846 14.9886 26.3495 13.1324 23.3343 13.1324C22.347 13.0829 21.3641 13.2933 20.4834 13.7427C19.6028 14.1921 18.8553 14.8647 18.3155 15.6934H18.1766V13.5294H13.5148V29.4118H18.4741V20.9643C18.4025 20.0992 18.6748 19.2407 19.2319 18.5753C19.7891 17.9099 20.5861 17.4914 21.4497 17.4107H21.6382C23.2153 17.4107 24.3857 18.4033 24.3857 20.9048V29.4118H29.345L29.3846 19.7632Z"/>
+						</svg>
+						
+				</a>
+
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="index.html#about">About Us</a>
+					</li>
+
+					<li>
+						<a href="index.html#services">Services</a>
+					</li>
+
+					<li>
+						<a href="index.html#contact">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="slogan-wrapper">
+			<div class="container">
+				<img src="img/sub-logo-black.svg" alt="" />
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<div class="page">
+		<div class="container">
+			<a href="index.html" class="back">
+				<img src="img/back.svg" alt="">
+			</a>
+
+			<h1 class="page-title">
+				Privacy <span>Terms</span>
+			</h1>
+
+			<p>
+				Last Updated: September 5 , 2023
+			</p>
+
+			<p class="blue-bold">
+				Introduction: 
+			</p>
+
+			<p>
+				Welcome to North, ("North," "we," "us," "our"). This Privacy Policy outlines how we collect, use, and protect your information when you use our services. By engaging with us, you agree to this Privacy Policy.
+			</p>
+
+			<p class="blue-bold">
+				Information Collection :
+			</p>
+
+			<p>
+				North, is responsible for the secure collection and processing of your data.
+			</p>
+
+			<p class="blue-bold">
+				Types of Information We Collect:
+			</p>
+
+			<ul>
+				<li>
+					<span>Personal Data:</span> Such as your name, email address, and phone number. We collect this data only when necessary for fulfilling contracts, providing services, or other interactions that you initiate.
+				</li>
+
+				<li>
+					<span>Business Information:</span> Including details about your business, specific project requirements, and other related data. This information is collected to provide tailored services.
+				</li>
+
+				<li>
+					<span>Usage Data:</span> Information gathered automatically through cookies and other tracking technologies. You can opt out of this data collection through your browser settings.
+				</li>
+
+			</ul>
+
+			<p class="blue-bold">
+				Lawful Basis for Processing:
+			</p>
+
+			<p>
+				We only collect and use your information when we have a valid reason to do so. This includes obtaining your explicit consent, fulfilling a contract with you, complying with legal obligations, or pursuing legitimate business interests.
+Your Rights:
+			</p>
+
+			<ul>
+				<li>
+					<span>Access:</span> You can request access to your data that we hold.
+				</li>
+
+				<li>
+					<span>Rectification:</span>
+					 You can update or correct your data if it's inaccurate.
+				</li>
+
+				<li>
+					<span>
+						Erasure:
+					</span>
+					 You can ask for your data to be deleted, under certain conditions.
+				</li>
+
+				<li>
+					<span>
+						Data Portability:
+					</span>
+					 You can request a copy of your data to use for different services.
+				</li>
+
+				<li>
+					<span>
+						Object:
+					</span>
+					 You can object to our use of your data.
+				</li>
+
+				<li>
+					<span>
+						Restriction of Processing: 
+					</span>
+					You may ask us to restrict how we use your data.
+				</li>
+
+				<li>
+					<span>
+						Consent Withdrawal:
+					</span>
+					 If you've given us consent to use your data, you can withdraw it at any time.
+				</li>
+			</ul>
+
+			<p class="blue-bold">
+				Use of Information:
+			</p>
+
+			<p class="no-margin">
+				We use the information collected for:
+			</p>
+
+			<ul>
+				<li>
+					<span>Service Provision:</span> To provide, maintain, and improve our services.
+				</li>
+
+				<li>
+					<span>Communication:</span>
+					 To communicate with you about project updates, invoices, and support.
+				</li>
+
+				<li>
+					<span>Marketing:</span>
+					 To provide you with updates and offers if you opt-in for such communications.
+				</li>
+
+			</ul>
+
+			<p class="blue-bold">
+				Data Sharing and Third Parties:
+			</p>
+
+			<p>
+				We may share your information with third-party service providers that assist in various functions such as payment processing, project management, and marketing. We do not sell or trade your information.
+			</p>
+
+			<p class="blue-bold">
+				Security:
+			</p>
+
+			<p>
+				We implement industry-standard security measures to protect your data, but we cannot guarantee its absolute security.
+			</p>
+
+			<p class="blue-bold">
+				Cookies:
+			</p>
+
+			<p>
+				We use cookies and other tracking technologies to analyze website performance and enhance user experience. You have the option to decline cookies through your browser settings.
+
+			</p>
+
+			<p class="blue-bold">
+				Your Rights:
+			</p>
+
+			<p>
+				You have the right to request access to, or deletion of, your personal data. To initiate this, please contact us.
+			</p>
+
+			<p class="blue-bold">
+				Policy Changes:
+			</p>
+
+			<p>
+				We reserve the right to modify this Privacy Policy at any time. Changes will be posted on this page with the updated last modified date.
+			</p>
+
+			<p class="blue-bold">
+				Consent:
+
+			</p>
+
+			<p>
+				By using our services, you consent to the collection and use of information in accordance with this policy.
+			</p>
+
+			<p class="blue-bold">
+				Contact Us:
+			</p>
+
+			<p>
+				For any questions regarding this Privacy Policy, you may contact us at
+
+				<a href="mailto:contact@northglobalgroup.com" class="link">contact@northglobalgroup.com</a>
+
+			</p>
+
+		</div>
+	</div>
+
+	<!-- start footer -->
+	<footer class="footer">
+		<div class="container">
+			<a href="/" class="footer-logo">
+				<img src="img/footer-logo.svg" alt="">
+			</a>
+
+			<div class="footer__content">
+				<div class="footer__menu">
+					<a href="#home" class="footer__link">Home</a>
+					<a href="#about" class="footer__link">About Us</a>
+					<a href="#services" class="footer__link">Services </a>
+					<a href="#contact" class="footer__link">Contact</a>
+					<a href="privacy-terms.html" class="footer__link">Privacy Terms</a>
+					<a href="terms-of-use.html" class="footer__link">Terms of Use </a>
+					<a href="cookie-policy.html" class="footer__link">Cookie Policy</a>
+					<a href="" class="footer__link">
+						<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M34.344 3.10662V31.8934C34.344 32.5515 34.0827 33.1828 33.6177 33.6482C33.1527 34.1135 32.522 34.375 31.8643 34.375H3.10026C2.44262 34.375 1.81191 34.1135 1.34688 33.6482C0.881854 33.1828 0.620605 32.5515 0.620605 31.8934L0.620605 3.10662C0.620605 2.44845 0.881854 1.81724 1.34688 1.35185C1.81191 0.886455 2.44262 0.625 3.10026 0.625L31.8643 0.625C32.522 0.625 33.1527 0.886455 33.6177 1.35185C34.0827 1.81724 34.344 2.44845 34.344 3.10662V3.10662ZM10.5392 13.5294H5.57992V29.4118H10.5392V13.5294ZM10.9856 8.06985C10.9882 7.69442 10.9169 7.32216 10.7757 6.97431C10.6346 6.62646 10.4264 6.30984 10.163 6.04252C9.89954 5.77521 9.58609 5.56245 9.24051 5.41637C8.89493 5.2703 8.52398 5.19377 8.14885 5.19118H8.05958C7.29671 5.19118 6.56509 5.49446 6.02566 6.03432C5.48623 6.57418 5.18318 7.30638 5.18318 8.06985C5.18318 8.83333 5.48623 9.56553 6.02566 10.1054C6.56509 10.6452 7.29671 10.9485 8.05958 10.9485V10.9485C8.43474 10.9578 8.80804 10.8929 9.15815 10.7577C9.50827 10.6225 9.82833 10.4196 10.1001 10.1606C10.3718 9.90155 10.5898 9.59147 10.7418 9.24806C10.8937 8.90466 10.9766 8.53465 10.9856 8.15919V8.06985ZM29.3846 19.7632C29.3846 14.9886 26.3495 13.1324 23.3343 13.1324C22.347 13.0829 21.3641 13.2933 20.4834 13.7427C19.6028 14.1921 18.8553 14.8647 18.3155 15.6934H18.1766V13.5294H13.5148V29.4118H18.4741V20.9643C18.4025 20.0992 18.6748 19.2407 19.2319 18.5753C19.7891 17.9099 20.5861 17.4914 21.4497 17.4107H21.6382C23.2153 17.4107 24.3857 18.4033 24.3857 20.9048V29.4118H29.345L29.3846 19.7632Z"/>
+							</svg>
+					</a>
+				</div>
+
+				<div class="footer__bottom">
+					<a href="mailto:contact@northglobalgroup.com" class="footer__mail">contact@northglobalgroup.com</a>
+					<div class="copy">
+						©2023 North. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<div class="succes-modal">
+		<div class="succes-modal__content">
+			<img src="img/suc.svg" alt="">
+			<div class="modal-title">
+				Success!
+			</div>
+			<div class="sub-title">
+				Success! Your message has been sent
+			</div>
+			<div>
+				We'll get back to you shortly. Thanks for reaching out!
+			</div>
+
+			<div class="button button--black back">
+				Back to hOme
+			</div>
+		</div>
+	
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+		<script>
+			$('.slider').slick({
+  dots: true,
+  prevArrow: false,
+  nextArrow: $('.next'),
+});
+		</script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+	$("#form").submit(function() {
+		$.ajax({
+			type: "POST",
+			url: "mail.php",
+			data: $(this).serialize()
+		}).done(function() {
+			$(this).find("input").val("");
+			$('.succes-modal').fadeIn();
+			$("#form").trigger("reset");
+		});
+		return false;
+	});
+	
+	});
+</script>
+
+<script>
+	var x, i, j, l, ll, selElmnt, a, b, c;
+/* Look for any elements with the class "custom-select": */
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /* For each element, create a new DIV that will act as the selected item: */
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /* For each element, create a new DIV that will contain the option list: */
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /* For each option in the original select element,
+    create a new DIV that will act as an option item: */
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /* When an item is clicked, update the original select box,
+        and the selected item: */
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+    /* When the select box is clicked, close any other select boxes,
+    and open/close the current select box: */
+    e.stopPropagation();
+    closeAllSelect(this);
+    this.nextSibling.classList.toggle("select-hide");
+    this.classList.toggle("select-arrow-active");
+  });
+}
+
+function closeAllSelect(elmnt) {
+  /* A function that will close all select boxes in the document,
+  except the current select box: */
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+
+/* If the user clicks anywhere outside the select box,
+then close all select boxes: */
+document.addEventListener("click", closeAllSelect);
+</script>
+<script>
+	 $(".to-top").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+
+    });
+</script>
+</body>
+
+</html>
